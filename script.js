@@ -276,3 +276,61 @@ while (userInput !== 'exit') {
   userInput = prompt('Masukkan input (ketik "exit" untuk keluar):');
   console.log(`Input pengguna: ${userInput}`);
 }
+
+// Contoh penggunaan tipe data string
+
+// let nama = 'John';
+// let pekerjaan = "Web Developer";
+
+// console.log('Nama saya adalah ' + nama + ' dan saya bekerja sebagai ' + pekerjaan);
+
+// Contoh penggunaan tipe data number:
+
+// let panjang = 10;
+// let lebar = 5;
+// let luas = panjang * lebar;
+
+// console.log('Luas persegi panjang adalah ' + luas);
+
+// Contoh penggunaan tipe data boolean
+
+// let isHujan = true;
+// let isMalam = false;
+
+// if (isHujan) {
+//   console.log('Bawa payung');
+// }
+
+// if (isMalam) {
+//   console.log('Waktunya tidur');
+// }
+// else {
+//   console.log('Masih siang');
+// }
+
+// Contoh penggunaan tipe data null
+
+// let tidakDidefinisikan;
+
+// if (tidakDidefinisikan === undefined) {
+//   console.log('Variabel tidak didefinisikan');
+// }
+// else {
+//   console.log('Variabel memiliki nilai ' + tidakDidefinisikan);
+// }
+
+// Contoh penggunaan tipe data object
+
+// let buku = {
+//   judul: 'Harry Potter and the Philosopher\'s Stone',
+//   penulis: 'J.K. Rowling',
+//   tahun: 1997
+// };
+
+// console.log('Buku ' + buku.judul + ' ditulis oleh ' + buku.penulis + ' pada tahun ' + buku.tahun);
+
+// Contoh penggunaan tipe data array
+
+// let namaHari = ['Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu', 'Minggu'];
+
+// console.log('Hari ini adalah ' + namaHari[3]); // Output: Hari ini adalah Kamis
